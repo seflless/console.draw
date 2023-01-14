@@ -3,6 +3,15 @@
  */
 
 export function logSVG(svg: SVGElement) {
+  // @ts-ignore
+  const clientRect = svg.getBoundingClientRect();
+  // const box = svg.getBBox();
+  const width = clientRect.width;
+  const height = clientRect.height;
+  // const width = box.width;
+  // const height = box.height;
+  console.log(width, height);
+
   // Get svg data
   var xml = new XMLSerializer().serializeToString(svg);
 
@@ -12,9 +21,6 @@ export function logSVG(svg: SVGElement) {
 
   // Prepend a "header"
   var image64 = b64Start + svg64;
-
-  const width = 300;
-  const height = 300;
 
   const style =
     "font-size: 1px; padding: " +
