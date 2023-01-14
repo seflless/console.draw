@@ -4,13 +4,13 @@
   "description": "",
   "author": "Francois Laberge",
   "license": "MIT",
-  "homepage": "https://github.com/seflless/arbitrary",
+  "homepage": "https://github.com/seflless/console.draw",
   "repository": {
     "type": "git",
-    "url": "https://github.com/seflless/arbitrary.git"
+    "url": "https://github.com/seflless/console.draw.git"
   },
   "bugs": {
-    "url": "https://github.com/seflless/arbitrary/issues"
+    "url": "https://github.com/seflless/console.draw/issues"
   },
   "keywords": [
     "publishing",
@@ -19,13 +19,13 @@
     "package"
   ],
   "type": "module",
-  "main": "./dist/arbitrary.umd.cjs",
-  "module": "./dist/arbitrary.js",
+  "main": "./dist/console.draw.umd.cjs",
+  "module": "./dist/console.draw.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/arbitrary.js",
-      "require": "./dist/arbitrary.umd.cjs"
+      "import": "./dist/console.draw.js",
+      "require": "./dist/console.draw.umd.cjs"
     }
   },
   "files": [
@@ -36,7 +36,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "vcoverage": "vitest run --coverage"
+    "cli-test": "vitest run",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@types/node": "^18.11.3",

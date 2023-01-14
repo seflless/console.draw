@@ -7,9 +7,10 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "arbitrary",
-      fileName: "arbitrary",
+      name: "console.draw",
+      fileName: "console.draw",
     },
+    sourcemap: true,
   },
   plugins: [dts()],
 });
