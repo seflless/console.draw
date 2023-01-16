@@ -2,13 +2,9 @@
 
 Log visual elements to the Dev Tools console.
 
-## TODO:
-
-- Add integration tests using something like Cypress to run things in proper browser environments
-
 ## Screenshots
 
-<img src="" width="100%"/>
+<img src="./demo.gif" width="100%"/>
 
 # Installation
 
