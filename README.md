@@ -6,13 +6,11 @@ Log visual elements to the Dev Tools console.
 
 <img width="50%" src="./demo.gif" width="100%"/>
 
-# Installation
+# Usage
 
-```
+```sh
 npm install console.draw
 ```
-
-# Usage
 
 ```js
 import { logSVG, logCanvas } from "console.draw";
