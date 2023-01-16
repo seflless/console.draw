@@ -1,6 +1,6 @@
 # Overview
 
-Log visual elements to the Dev Tools console.
+Draw `<svg>`, `<img>`, `<canvas>`, VideoFrames, and other graphics to the Dev Tools console.
 
 <img width="50%" src="./demo.gif" width="100%"/>
 
