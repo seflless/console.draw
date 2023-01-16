@@ -2,8 +2,6 @@
 
 Log visual elements to the Dev Tools console.
 
-## Screenshots
-
 <img width="50%" src="./demo.gif" width="100%"/>
 
 # Usage
