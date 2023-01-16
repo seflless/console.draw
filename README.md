@@ -9,7 +9,7 @@ Log visual elements to the Dev Tools console.
 # Usage
 
 ```sh
-npm install console.draw
+yarn add console.draw
 ```
 
 ```js
