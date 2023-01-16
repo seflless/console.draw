@@ -5,12 +5,8 @@
 export function logSVG(svg: SVGElement) {
   // @ts-ignore
   const clientRect = svg.getBoundingClientRect();
-  // const box = svg.getBBox();
   const width = clientRect.width;
-  const height = clientRect.height;
-  // const width = box.width;
-  // const height = box.height;
-  console.log(width, height);
+  const height = clientRect.height / 2;
 
   // Get svg data
   var xml = new XMLSerializer().serializeToString(svg);

@@ -1,18 +1,10 @@
 # Overview
 
-See Demos:
-
-- a
-- b
+Log visual elements to the Dev Tools console.
 
 ## TODO:
 
 - Add integration tests using something like Cypress to run things in proper browser environments
-
-## Features
-
-- a
-- b
 
 ## Screenshots
 
@@ -26,12 +18,11 @@ npm install console.draw
 
 # Usage
 
-## Log SVG Snapshots
-
 ```js
-import { logSVG } from "console.draw";
+import { logSVG, logCanvas } from "console.draw";
 
-// TODO
+logSVG(svgElement);
+logCanvas(canvasElement);
 ```
 
 ## Contributing
@@ -47,6 +38,7 @@ cd console.draw
 
 ```
 yarn dev
+# Open the workbench page at http://localhost:5173/
 ```
 
 #### Building
@@ -54,6 +46,10 @@ yarn dev
 ```
 yarn build
 ```
+
+#### Testing
+
+**TBD**
 
 #### Publishing to NPM
 

@@ -1,2 +1,2 @@
-// export { default as Generator } from "./Generator";
+export * from "./canvas";
 export * from "./svg";
